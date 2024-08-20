@@ -1,0 +1,33 @@
+.burger-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  .burger-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  
