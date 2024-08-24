@@ -143,6 +143,11 @@ h2:hover{
     #navbar{
       justify-content: center;
     }
+
+    body{
+      background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(118,232,45,1) 24%, rgba(159,21,45,1) 41%, rgba(29,213,183,1) 57%, rgba(147,149,146,1) 72%, rgba(0,0,0,1) 100%);
+    }
+
     #headd{
       font-size: 2.5rem;
     }
