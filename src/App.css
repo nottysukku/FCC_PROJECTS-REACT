@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
   }
   body{
-    background-image: linear-gradient(to right bottom,black, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1,black);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(118,232,45,1) 24%, rgba(159,21,45,1) 41%, rgb(29, 173, 213) 57%, rgba(147,149,146,1) 72%, rgba(0,0,0,1) 100%);
 height: 100vh; 
 overflow-x: hidden;
 
@@ -49,7 +49,7 @@ overflow-x: hidden;
   
   #welcome-section {
     height: 50vh;
-    background-image: url("https://as1.ftcdn.net/v2/jpg/06/58/97/86/1000_F_658978611_cRCOfUqnmXCBeun4RFOXWcc2jzBfAnIe.jpg");
+    background-image: url("https://images.pexels.com/photos/35600/road-sun-rays-path.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
     display: flex;
