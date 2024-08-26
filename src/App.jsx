@@ -64,9 +64,7 @@ function App() {
           <a href="#" className="profile-link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Instagram_logo.png/240px-Instagram_logo.png" style={{ filter: 'invert()' }} alt="Instagram" />
           </a>
-          <a href="https://www.linkedin.com/in/sukrit-chopra-5923a9215/" className="profile-link" target="_blank" rel="noopener noreferrer">
-            <img src="https://banner2.cleanpng.com/20180417/qaw/kisspng-computer-icons-linkedin-social-media-next-button-5ad5b1b7cea3b6.9329082615239541038464.jpg" alt="LinkedIn" />
-          </a>
+         
           <a href="#" className="profile-link">
             <img src="https://cdn-icons-png.flaticon.com/512/4401/4401475.png" alt="Twitter" />
           </a>
