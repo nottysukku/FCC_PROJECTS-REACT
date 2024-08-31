@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';  // Import framer-motion
 import './App.css';
 import Foot from './components/Foot';
 
@@ -27,9 +28,17 @@ function App() {
         </nav>
 
         <div id="welcome-section">
-          <h1 id="headd" className="main-heading">
-            Hey, I'm Sukrit Chopra <br />A Web Developer
-          </h1>
+          <motion.h1
+            id="headd"
+            className="lg:text-8xl text-4xl font-extrabold bg-gradient-to-br from-blue-900 via-black to-blue-900 bg-clip-text text-transparent cursor-pointer"
+            initial={{ opacity: 0, y: 250 }}  // Start with opacity 0 and translateY 50px
+            animate={{ opacity: 1, y: 0 }}   // Animate to opacity 1 and translateY 0
+            transition={{ duration: 1, ease: "easeOut" }}  // Transition settings
+            whileHover={{ scale: 1.1 }}  // Hover animation (scale)
+            whileTap={{ scale: 1.8, transition: { duration: 0.5 } }}  // Active (tap) animation
+          >
+            Hey, I'm Sukrit Chopra <br />A Web Developer <br />(React.JS)
+          </motion.h1>
         </div>
 
         <div id="projects">
