@@ -75,8 +75,9 @@ body {
 }
 
 .main-heading {
-  font-size: 4rem;
-  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  font-size: 5rem;
+  font-weight: bolder;
+  background: linear-gradient(45deg, #000000, #5676e8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -100,6 +101,7 @@ body {
 
 #projects h2 {
   font-size: 2rem;
+  font-weight: bolder;
   margin-bottom: 50px;
   color: #fff;
 }
