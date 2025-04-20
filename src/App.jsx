@@ -45,10 +45,10 @@ function App() {
           <h2>Projects from the Responsive Web Design Course</h2>
           <div className="project_cards">
             {[
-              { url: 'https://survey-react-murex.vercel.app/', img: 'https://i.imghippo.com/files/cow7F1715075505.png', title: 'Survey Form' },
-              { url: 'https://tribute-page-rosy.vercel.app/', img: 'https://i.imghippo.com/files/wnLjG1715075625.png', title: 'Tribute Page' },
-              { url: 'https://doraemon-documentation.vercel.app/', img: 'https://i.imghippo.com/files/6ru1h1715075573.png', title: 'Technical Documentation Page' },
-              { url: 'https://product-page-rust.vercel.app/', img: 'https://i.imghippo.com/files/JE4kk1715075604.png', title: 'Product Landing Page' },
+              { url: 'https://survey-react-murex.vercel.app/', img: 'https://i.ibb.co/1jywcdD/Screenshot-2025-04-20-164211.jpg', title: 'Survey Form' },
+              { url: 'https://tribute-page-rosy.vercel.app/', img: 'https://i.ibb.co/DHsVtHvT/Screenshot-2025-04-20-164230.jpg', title: 'Tribute Page' },
+              { url: 'https://doraemon-documentation.vercel.app/', img: 'https://i.ibb.co/0y5DdJ8L/Screenshot-2025-04-20-164304.jpg', title: 'Technical Documentation Page' },
+              { url: 'https://product-page-rust.vercel.app/', img: 'https://i.ibb.co/zhLBQvz2/Screenshot-2025-04-20-164319.jpg', title: 'Product Landing Page' },
             ].map((project, index) => (
               <a key={index} onClick={() => window.open(project.url, '_blank')} className="project-tile cursor-pointer" rel="noopener noreferrer">
                 <div className="card">
